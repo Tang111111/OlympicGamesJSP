@@ -1,0 +1,10 @@
+.head {
+	color: white;
+	height: 70px;
+	width: auto;
+}
+
+.head h1 {
+	text-align: center;
+	line-height: 70px;
+}

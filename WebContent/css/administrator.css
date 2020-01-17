@@ -1,0 +1,58 @@
+.out {
+	/*margin-left: 20%;*/
+	display: flex;
+	justify-content: center;
+}
+
+.button, .submitButton {
+	width: 130px;
+	margin: 30px;
+}
+
+button, .submitButton {
+	color: white;
+	background-color: #5CB85C;
+	border: none;
+	width: 150px;
+	height: 40px;
+}
+
+button:hover {
+	cursor: pointer;
+	color: black;
+}
+
+#insertDiv {
+	display: none;
+}
+
+#createDiv {
+	display: none;
+}
+
+.holder {
+	clear: both;
+	height: 1px;
+	width: 100%;
+	overflow: hidden;
+	margin-top: -1px;
+}
+
+.infoTable {
+	width: 100%;
+	/*display:none;*/
+}
+
+.infoTable img {
+	height: 50px;
+	border-radius: 50%;
+}
+
+td {
+	text-align: center;
+}
+
+#tableHead th {
+	color: gray;
+	text-align: center;
+}

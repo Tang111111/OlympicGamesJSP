@@ -1,0 +1,17 @@
+#gallary{
+	float: left;
+	justify-content: center;
+	width: 1000px;
+	height: auto;
+}
+#gallary img{
+	width: inherit;
+	margin-bottom:10px ;
+	cursor: pointer;
+}
+
+#gallary img:hover{
+	transform: scale(1.05);
+	border: ridge;
+}
+

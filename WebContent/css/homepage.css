@@ -1,0 +1,177 @@
+/*
+ * banner
+ */
+.carousel-caption {
+	background-color: #000000;
+	opacity: 0.5;
+	right: 0%;
+	left: 0%;
+	bottom: 0%;
+}
+
+.carousel-caption h3 {
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.carousel-indicators {
+	left: 15%;
+}
+
+#myCarousel {
+	height: 90%;
+}
+			
+
+/*
+ * medal table header
+ */
+
+.medal-table-header {
+	margin-top: 0px;
+	height: 100px;
+	background-color: #FFFFFF;
+	padding-top:40px;
+}
+
+.medal-table-header-content {
+	font-family: arial
+	color: #000000;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-left: 50px;
+	left: 15%;
+}
+
+/*
+ * medal block
+ */
+.real-time-record {
+	position: relative;
+}
+
+.medal-table {
+	line-height: 150%; 
+	font-size: 12px; 
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 90%; 
+	padding-top: 0px;
+	margin-top: 0px;
+	overflow: hidden;
+}
+
+.country-block {
+	text-align: center; 
+	width: 100%; 
+	color: #fff; 
+	float: left; 
+	list-style-type: none; 
+	transition: all 0.25s; 
+	position: relative; 
+	box-sizing: border-box;
+	margin-bottom: 10px; 
+	border-bottom: 1px solid transparent; 
+}
+
+.medal-table h3 {
+	text-transform: uppercase; 
+	padding: 5px 0; 
+	background: #333; 
+	margin: -10px 0 1px 0;
+}
+
+.country-name {
+	display: table; 
+	background: #045FB4; 
+	width: 100%; 
+	height: 70px; 
+}
+.country-figure {
+	font-size: 24px; 
+	text-transform: uppercase; 
+	vertical-align: middle; 
+	display: table-cell;
+}
+.country {
+	font-weight: bold; 
+	display: block;
+}
+
+.details {
+	background: #FFF; 
+	color: #000;
+	padding-left: 0px;
+	
+}
+.details li {
+	padding: 8px 15px;
+	font-size: 13px; 
+	list-style-type: none;
+}
+
+.medal-total {
+	padding: 15px; 
+	background-color: #666EA0;
+}
+.action_button {
+	text-decoration: none; 
+	color: #fff; 
+	font-weight: bold; 
+	font-size: 15px; 
+	text-transform: uppercase;
+}
+
+.country a {
+	color: #FFFFFF
+}
+
+.country-block:hover {
+	box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.5); 
+	transform: scale(1.04) translateY(-5px); 
+	z-index: 1; 
+	border-bottom: 0 none;
+}
+.country-block:hover .country-name {
+	background: linear-gradient(#B40431, #E70909); 
+	box-shadow: inset 0 0 45px 1px #DB7224;
+}
+.country-block:hover h3 {
+	background: #222;
+}
+.country-block:hover .medal-total {
+	background:linear-gradient(#E70909, #F90202); 
+}
+
+
+@media only screen and (min-width : 480px) and (max-width : 768px) {
+	.country-block {width: 50%;}
+	.country-block:nth-child(odd) {border-right: 1px solid transparent;}
+	.country-block:nth-child(3) {clear: both;}
+	
+	.country-block:nth-child(odd):hover {border: 0 none;}
+}
+@media only screen and (min-width : 768px){
+	.country-block {width: 20%;}
+	.country-block {border-right: 1px solid transparent; border-bottom: 0 none;}
+	.country-block:last-child {border-right: 0 none;}
+	
+	.country-block:hover {border: 0 none;}
+}
+
+/*
+ * tab menu
+ */
+.tab-pane {
+	font-family: "microsoft sans serif";
+	font-size: 17px;
+	padding-top: 5px;
+	line-height: 1.7em;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.container-fluid{
+	width: 90%;
+}
+
+</style>

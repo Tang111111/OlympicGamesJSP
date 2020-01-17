@@ -1,0 +1,54 @@
+/*
+ * footer
+ */
+
+.section {
+	background: #DDDDDD;
+	padding: 20px 0 14px;
+}
+
+.holder {
+	width: 100%;
+	margin: 0 auto;
+	padding: 27px 15px 32px;
+}
+
+.links-box {
+	text-align: left;
+	color: #979797;
+	overflow: hidden;
+}
+
+.links-box > li {
+	display: inline-block;
+	list-style-type: none;
+	font-size: 15px;
+	vertical-align: top;
+	letter-spacing: 0;
+	line-height: 1.5em;
+	margin-left: 50PX;
+	margin-right: 10px;
+}
+
+.links-box .title {
+	display: block;
+	color: #333333;
+	font-size: 1.33em;
+	line-height: 1.14em;
+	margin: 0 0 28px;
+}
+
+.slide {
+	display: inline-block;
+}
+
+.slide ul {
+	list-style-type: none;
+	padding-left: 0;
+	
+}
+
+.slide ul > li {
+	text-align: left;
+	margin-left: 0;
+}

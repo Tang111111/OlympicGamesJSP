@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+.sportsname{
+    margin-top:2cm 
+}
+.sportsnamenav{
+	font-size: 13px 1em/1.25em;
+    line-height: 15px;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+	display: block;
+	
+}
+.container2 {
+    overflow: hidden;
+    background-color: #6a1c68;
+}
+
+.container2 a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sportsname .drop-down{
+    float: left;
+    overflow: hidden;
+}
+
+.drop-down .dropbutton {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 26px 16px;
+    background-color: inherit;
+    text-transform: uppercase;
+}
+
+.container2 a:hover, .drop-down:hover .dropbutton {
+    background-color: mediumpurple;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.sportsname .holder{
+	display:block;
+    min-height: 180px;
+    position: relative;
+	text-align: center;
+	background-color: #92278f;
+}
+
+.sportsname .holder h1{
+	font: 4em/1.036em;
+    color: #fff;
+    font-weight:800;
+    font-size: 80px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    margin:0 0 33px;
+	padding: 50px 15px 22px;
+}

@@ -1,0 +1,12 @@
+.headPicture {
+	align-content: center;
+	z-index: 100;
+}
+
+.headPicture h2 {
+	position: absolute;
+	z-index: 101;
+	left: 30px;
+	top: 30%;
+	font-family: "microsoft sans serif";
+}

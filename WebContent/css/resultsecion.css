@@ -1,0 +1,33 @@
+.results-section {
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	
+}
+
+.results-container {
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+h1 {
+	margin-top: 0px;
+	padding-top: 10px;
+}
+.search-box {
+	
+}
+
+.holder {
+	width: 100%;
+	margin: 0 auto;
+	padding: 27px 15px 32px;
+}
+
+.form-group {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+

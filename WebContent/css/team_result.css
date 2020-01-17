@@ -1,0 +1,117 @@
+.table-box{
+	margin-bottom: 60px;
+}
+.table-box .heading{
+	margin-left:150px;
+}
+.heading text{
+	color: #333;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+.hide{
+	display: none;
+}
+.table4{
+	border-collapse: collapse;
+	color: #999;
+	border-spacing: 0px;
+	margin-top: 10px;
+	margin-left:150px;
+}
+.table4 th{
+	font-size: 1.1em;
+	line-height: 1.17em;
+	color:#999;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	border-bottom:1px solid #ddd ;
+	vertical-align: middle;
+	text-align: left;
+}
+.table4 td{
+	border-bottom:1px solid #ddd ;
+	padding: 15px 0 15px;
+	vertical-align: middle;
+	text-align: left;
+}
+.table4 .col1{
+	padding-right: 35px;
+	width: 100px;
+	white-space: nowrap;
+	text-align: center;
+}
+.table4 .col2{
+	width:30%;
+}
+.table4 .col3{
+	width:280px;
+}
+.table4 .col4{
+	width: 500px;
+}
+.table4 .medal{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.33em;
+	line-height: 1.12em;
+}
+.medal .picture{
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.medal .picture img{
+	vertical-align: top;
+	width: 35px;
+	height: 35px;
+}
+.table4 .num-txt{
+	font-size: 1.33em;
+    line-height: 1.12em;
+}
+
+.profile-section{
+	font-weight: 400;
+	text-align: left;
+	overflow: hidden;
+	display: block;
+}
+.profile-section .picture{
+	float: left;
+	margin:0 13px 0 0;
+	overflow: hidden;
+	position: relative;
+}
+.profile-section .picture img{
+	vertical-align: top;
+	width:80px;
+	height:52px;
+}
+
+.table4 .name{
+	font-weight: 700;
+	padding-top: 15px;
+}
+
+.profile-section .name{
+	font-weight: 500;
+	display: block;
+	color: #333;
+	text-transform: none;
+	text-align: left;
+}
+
+.profile-section .text-box{
+	float: none;
+	vertical-align: middle;
+	color: #999;
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 1.14em;
+	padding-top:7px;
+}
+

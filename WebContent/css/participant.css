@@ -1,0 +1,106 @@
+.related-athletes{
+	padding-top:10px;
+	padding-bottom: 60px;
+	margin-bottom: 80px;
+	border-bottom:1px solid #ddd ;
+}
+
+.related-athletes .heading{
+	margin-left:150px;
+}
+.heading h2{
+	color: #333;
+	text-transform: uppercase;
+}
+.add-links{
+	float: right;
+	font: 700;
+	margin-top:-45px;
+}
+.add-links li{
+	float: left;
+	margin-right: 50px;
+}
+.add-links a{
+	color: #acacac;
+	text-decoration: none;	
+}
+.add-links a:hover,a:active{
+	text-decoration: none;
+	color: #333;
+}
+.related-list{
+	list-style: none;
+	text-align: center;
+	overflow: hidden;
+}
+.related-list.col6{
+	padding-right: -10px;
+	padding-left: 150px;
+	padding-top: 18px;
+}
+.related-list.col6 > li{
+	width: 15%;
+	padding-right: 20px;
+}
+.related-list > li{
+	float: left;
+	width:25%;
+}
+.related-list.holder{
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+}
+a{
+	text-decoration: none;
+	color: #333;
+	-webkit-transition:color .2s ease-out;
+	-moz-transition: color .2s ease-out;
+	-moz-transition: color .2s ease-out;
+	transition: color .2s ease-out;
+}
+.related-list .image{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	margin:0 auto 11px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+}
+.related-list .image img{
+	border-radius: 50%;
+	vertical-align: top;
+	width: 200px;
+	height: 200px;
+}
+
+.related-list .name{
+	font-size: 1.16em;
+	line-height: 1.1em;
+	display: block;
+	margin: 0 0 8px;
+	color: #333;
+	font-weight: 400;
+	word-break: break-word;
+}
+.related-list .profile-row{
+	display: inline-block;
+	vertical-align: top;
+}
+.profile-row{
+	display: block;
+	overflow: hidden;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 18px;
+	color: #333;
+}
+.profile-row .flag-image{
+	float: left;
+	margin: 0px 10px 0 0;
+	overflow: hidden;
+	position: relative;	
+}
+

@@ -1,0 +1,51 @@
+.win {
+	/*display:*/
+	width: 80%;
+	margin: 0 auto;
+}
+
+.heading {
+	width: 100%;
+	text-align: center;
+	font-family: "microsoft sans serif";
+	font-size: larger;
+	margin-bottom: 30px;
+}
+
+.win #pic {
+	margin: 10px;
+}
+
+.tableData img {
+	width: 50px;
+	border-radius: 50%;
+}
+
+.tableData div {
+	margin: 10px;
+}
+
+table {
+	width: 1000px;
+	height: auto;
+}
+
+td {
+	text-align: center;
+}
+
+th {
+	color: gray;
+}
+
+#link,#link2{
+	border:0px;
+	background-color:transparent;	
+	text-decoration: underline;
+}
+#link:hover,#link:focus,#link2:hover,#link2:focus{
+	font-family: "microsoft sans serif";
+	font-style: italic;
+	text-decoration: underline;
+	cursor: pointer;
+}
